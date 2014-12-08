@@ -1,25 +1,16 @@
-# Merge-es6-vendor
+# Merge-es6-vendor Error
 
-This README outlines the details of collaborating on this Ember addon.
 
-## Installation
+### Steps to reproduce
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+ember s
+```
 
-## Running
+Will produce the following error:
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+```
+File: dummy/routes/application.js
+ENOENT, no such file or directory '/Users/chietala/workspace/shift/merge-es6-vendor/tmp/tree_merger-tmp_dest_dir-szCVHgL8.tmp/vendor/ember-inflector/main.js'
+```
 
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
