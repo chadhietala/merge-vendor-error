@@ -4,6 +4,7 @@
 ### Steps to reproduce
 
 ```
+bower install --save ember-inflector
 ember s
 ```
 
